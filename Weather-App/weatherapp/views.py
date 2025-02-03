@@ -11,12 +11,12 @@ def home(request):
     else:
          city = 'indore'     
     
-    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=7524c70ea1644affdaa2b66fd84eb0ea'
+    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid='
     PARAMS = {'units':'metric'}
 
-    API_KEY =  'AIzaSyBRbzcZD2OVrdFXw1jUU-ro_VncS3O9bvg'
+    API_KEY =  
 
-    SEARCH_ENGINE_ID =  'b6eff18a6c9284399'
+    SEARCH_ENGINE_ID =  
      
     query = city + " 1920x1080"
     page = 1
