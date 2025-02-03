@@ -39,4 +39,6 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
+# In views. py
 
+add your Api Key and Search Engine ID
